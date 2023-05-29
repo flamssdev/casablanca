@@ -2,7 +2,6 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('nome-do-cache').then(function(cache) {
         return cache.addAll([
-          '/',
           'index.html',
           '/imagens/2-home/1-home.webp',
           '/imagens/2-home/2-envelhecer.webp',
