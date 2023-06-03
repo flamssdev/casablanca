@@ -133,7 +133,7 @@ const descricaoDepoimento = document.getElementById("descricao-depoimento");
 
 
 nomeDepoimento.innerHTML = `
-      <span>Hospede: ${depoimentos[0].hospede}</span>
+      <span>Hóspede: ${depoimentos[0].hospede}</span>
       <span>Filho: ${depoimentos[0].filho}</span>
       
     `;
@@ -150,7 +150,7 @@ function depoimento() {
   let indiceDepoimento = 1;
   setInterval(() => {
     nomeDepoimento.innerHTML = `
-      <span>Hospede: ${depoimentos[indiceDepoimento].hospede}</span>
+      <span>Hóspede: ${depoimentos[indiceDepoimento].hospede}</span>
       <span>Filho: ${depoimentos[indiceDepoimento].filho}</span>
     `;
 
