@@ -1,3 +1,7 @@
+// window.addEventListener('load', () => {
+//   const body = document.body.style.display = "unset";
+// })
+
 // Codigo
 
 
@@ -172,6 +176,3 @@ function depoimento() {
 
 
 depoimento();
-
-
-

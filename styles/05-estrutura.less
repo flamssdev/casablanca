@@ -1,13 +1,22 @@
 .estrutura {
   padding-top: 80px;
   .container-estrutura {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 30px 2% 50px;
     gap: 80px;
     position: relative;
     .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       overflow: auto;
       width: 100%;
